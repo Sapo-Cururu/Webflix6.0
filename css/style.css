@@ -1,0 +1,85 @@
+
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+        background-image: url("../img/scale.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: 7rem;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 80px; 
+        margin-top: 0px;
+        text-align: center;
+    }
+    table{
+        background-color: rgb(233, 72, 60, 0.9);
+        border-left: 6px solid rgb(255, 6, 6);
+        margin-left: 10px;
+        width: 25%;
+    }
+    .header{
+        background-color: #282A35;
+        overflow: hidden;
+        height: 100px;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+    .link{
+        cursor: pointer;
+    }
+    .img{
+        cursor: pointer;
+    }
+    td{
+        text-align: center;
+        font-weight: bold;
+        font-size: 21px;
+    }
+    .link{
+        text-decoration: none;
+        background-color: none;
+        color: red;
+
+    }
+    .link:hover{
+        color: rgb(204, 6, 6);
+    }
+    #poster:hover{
+        animation-name: fade;
+        animation-duration: 0.25s;
+        animation-fill-mode: forwards;
+        cursor: pointer;
+    }
+    @keyframes fade{
+        from{}
+        to {transform: scale(1.75); margin-left: 20%;}
+    }
+    .t2{
+        margin-left: 10%;
+        background-color: rgb(11, 124, 11, 0.9);
+        border-left: 6px solid rgb(57, 214, 57);
+    }
+    .t3{
+        margin-left: 10%;
+    }
+    .t1{
+        background-color: rgb(28, 196, 196, 0.9);
+        border-left: 6px solid rgb(8, 248, 248);
+    }
+    #button_login{
+    position: absolute;
+    right: 10%;
+    top: 8%;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    }
+    #login_ico{
+        position: absolute;
+        right: 13%;
+        top: 7%;
+
+    }

@@ -1,0 +1,40 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(134, 138, 134);
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#menu{
+    background-color: rgb(41, 40, 40);
+    width: 879px;
+    height: 302.594px;
+    border-top: 10px blue;
+    padding-top: 100px;
+}
+#login{
+    color: white;
+    font-size: 50pt;
+    text-align: center;
+}
+#senha{
+    color: white;
+    font-size: 50pt;
+    text-align: center;
+}
+#button{
+    margin-left: 40%;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(199, 40, 40);
+    border: 0;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+#button:hover{
+    cursor: pointer;
+}
